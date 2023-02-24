@@ -6,9 +6,6 @@ html {
 html {
   overflow-y: scroll;
 }
-* {
-  outline: 1px solid red;
-}
 ul {
   list-style-type: none;
   padding-left: 0px;

@@ -2,7 +2,7 @@ html {
   font-style: normal;
   font-size: 20px;
 }
-body, html {
+html {
   overflow-y: scroll;
 }
 ul {

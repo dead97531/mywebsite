@@ -272,28 +272,20 @@
       margin-bottom: 24px;
     }
     #flex3 > #A {
-      order: 2;
-    }
-    #flex3 > #A {
       width: 340px;
     }
-    #flex3 > #B {
-      order: 1;
-    }
-    #flex4 > #megtud {
-      order: 1;
-      float: none;
-      /*width:unset*/
-    }
-    #flex4 > #megtud2 {
-      order: 2;
-      float: none;
-      /*width:unset*/
-    }
     #flex4 > #megtud3 {
-      order: 3;
-      float: none;
-      /*width:unset*/
+      margin-left: unset;
+    }
+    .group1155-1text2
+    {
+      padding-bottom: 5px;
+    }
+    .group1155-1 {
+      width: unset;
+    }
+    .group1155 li {
+      display:flex;
     }
     #B3 {
       flex: 33.33% !important;

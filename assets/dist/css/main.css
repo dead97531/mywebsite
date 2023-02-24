@@ -2,11 +2,8 @@ html {
   font-style: normal;
   font-size: 20px;
 }
-body {
+body, html {
   overflow-y: scroll;
-}
-html, body {
- overflow-x: hidden; 
 }
 ul {
   list-style-type: none;

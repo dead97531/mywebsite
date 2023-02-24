@@ -1,6 +1,13 @@
 html {
+
   font-style: normal;
   font-size: 20px;
+}
+html {
+  overflow-y: scroll;
+}
+* {
+  outline: 1px solid red;
 }
 ul {
   list-style-type: none;
@@ -435,7 +442,7 @@ ul {
   background-image: url(../../../images/send_button.svg);
   background-repeat: no-repeat;
   height: 33px;
-  width: 50px;
+  width: 33px;
 }
 .roundedb {
   background: #ffffff;

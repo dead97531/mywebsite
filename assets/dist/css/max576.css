@@ -83,8 +83,7 @@
       max-width: 100%;
     }
     #D ul {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 20px;
     }
     .font4 {
       font-size: 1.5rem;
@@ -188,7 +187,7 @@
     .mtitletxt2 {
       font-size: 26px;
       line-height: 31px;
-      width: 340px;
+      /*width: 340px;*/
     }
     #flex {
       display: flex;
@@ -300,13 +299,23 @@
     }
     .tablet1 {
       flex: 25%;
-      padding-left: 10px;
       width: 160px;
     }
     .box3 {
       width: 160px;
     }
     .img3 {
-      width: 160px;
+      width: 158px;
+    }
+    .footerh {
+      height: auto;
+    }
+    .col-2 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .col-2 {
+      padding-left: 0px;
+      padding-right: 0px;
     }
   }

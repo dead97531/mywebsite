@@ -1,0 +1,79 @@
+.links {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.csomagok {
+  font-weight: 700;
+}
+
+.menu2 {
+  font-weight: 400;
+  padding-right: 10px;
+  margin-top: 12px;
+}
+.rect {
+  width: 18px;
+  height: 4px;
+  background-color: #e61c5d;
+  margin-left: 65px;
+  position: relative;
+}
+.ujweb {
+  background: #e61c5d;
+  border-radius: 45px;
+  padding: 18px 24px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  color: #ffffff;
+  line-height: 24px;
+  font-weight: 500;
+}
+.vector {
+  padding-right: 13px;
+  height: 100%;
+  margin-top: 18px;
+}
+#AC {
+    padding-top: 1rem;
+    margin-right: 3rem;
+}
+#AB {
+    padding-top: 1rem;
+  }
+@media (max-width: 575.98px) {
+  .navlogo {
+    padding-left: 0px !important;
+    margin-top: 0px !important;
+  }
+  .ujweb {
+    width: 108px;
+    height: 41px;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 17px;
+    margin-top: 0px !important;
+    padding: 12px 14px;
+    margin-bottom: 24px;
+  }
+  .vector {
+    display: none;
+  }
+  .rect {
+    display: none;
+  }
+  #AC {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .links {
+    margin: 0rem;
+  }
+  #AB {
+    padding-top: 0rem;
+    column-count: 1;
+    display: contents;
+
+  }
+}

@@ -1,0 +1,312 @@
+@media (max-width: 575.98px) {
+    .copy {
+      display: flex;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.7rem;
+      line-height: 20px;
+      text-align: center;
+      justify-content: center;
+    }
+    .input-group {
+      padding-left: 1.5rem !important;
+    }
+    .form-control {
+      padding-right: 2.2rem !important;
+      width: 90%;
+    }
+    .femail1 {
+      position: relative;
+      left: 260px;
+      bottom: 42px;
+    }
+    .femail {
+      background: #ffffff !important;
+      box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.04) !important;
+      border-radius: 55px !important;
+    }
+    .fir {
+      width: unset;
+    }
+    #flex > #B {
+      margin-top: 1.5rem;
+    }
+    #flex > #D {
+      margin: auto;
+      text-align: center;
+    }
+    #id {
+      margin-top: 1rem;
+    }
+    .btn2 {
+      width: 273px;
+      height: 71px;
+    }
+    .rect3txt {
+      width: 340px;
+      height: 31px;
+      font-size: 1.3rem;
+    }
+    .rect3txt2 {
+      width: 340px;
+      height: 16px;
+      font-size: 0.8rem;
+      margin-bottom: 2rem;
+    }
+    .box2 {
+      width: 160px;
+      height: 170px;
+    }
+    .box2txt {
+      padding-top: 15px;
+      width: 140px;
+      padding-left: 13px;
+    }
+    .img5 {
+      padding-top: 13px;
+      width: 64px;
+      height: 64px;
+    }
+  
+    .tablet {
+      padding-top: 5px;
+      max-width: 50% !important;
+    }
+    .gap1 {
+      gap: 0px;
+    }
+    .hass {
+      margin-left: 0px;
+    }
+    .img4 {
+      max-width: 100%;
+    }
+    #D ul {
+      padding-left: 25px;
+      padding-right: 10px;
+    }
+    .font4 {
+      font-size: 1.5rem;
+      line-height: 36px;
+      width: 340px;
+    }
+    .font5 {
+      font-size: 0.8rem;
+      width: 340px;
+    }
+    .box {
+      height: 190px !important;
+    }
+    .row2 {
+      flex-wrap: wrap;
+    }
+    .pt6 {
+      padding-top: 40px;
+    }
+    .font1 {
+      font-size: 1.5rem;
+      width: 330px;
+    }
+    .font2 {
+      font-size: 0.8rem;
+      width: 300px;
+      margin-top: 6px;
+    }
+    .webcs {
+      padding-top: 18px;
+      padding-bottom: 18px;
+      width: 190px;
+      height: 55px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+      font-size: 0.8rem;
+      line-height: 19px;
+    }
+    .rect2 {
+      width: 340px;
+      height: 346px;
+      margin-left: 0px;
+    }
+    .ingyen {
+      padding-top: 70px;
+      font-size: 1.3rem;
+      padding-left: 18px;
+    }
+    .resz {
+      margin: 0px;
+      margin-top: 43px;
+      margin-left: 19px;
+      width: 118px;
+      height: 55px;
+      font-size: 0.8rem;
+      line-height: 19px;
+    }
+    .bele {
+      margin: 0px;
+      margin-top: 43px;
+      margin-right: 53px;
+      width: 122px;
+      height: 55px;
+      font-size: 0.8rem;
+      line-height: 19px;
+    }
+    #megtud {
+      width: 259px;
+      height: 72px;
+    }
+    .group1155-1 {
+      padding-left: 0px;
+      margin-bottom: 0px;
+    }
+    .group1155-1 li {
+      margin-bottom: 20px;
+    }
+    .group1155 {
+      padding-left: 0px;
+      padding-top: 0px;
+    }
+    .group1155 li {
+      margin-bottom: 20px;
+    }
+    .txt {
+      font-size: 1.5rem;
+      line-height: 120%;
+      width: 270px;
+      height: 72px;
+    }
+    #megtud2 {
+      width: auto;
+      padding-top: 37px;
+    }
+    #megtud3 {
+      width: auto;
+    }
+    .mtitle {
+      padding-top: 44px;
+    }
+    .mtitletxt2 {
+      font-size: 26px;
+      line-height: 31px;
+      width: 340px;
+    }
+    #flex {
+      display: flex;
+      flex-direction: column;
+    }
+    #flex > #A {
+      order: 1;
+    }
+    #flex > #B {
+      order: 2;
+    }
+    #flex > #C {
+      order: 4;
+    }
+    #flex > #D {
+      order: 3;
+    }
+  
+    #flex2 {
+      display: wrap;
+      flex-direction: row;
+      padding-top: 30px;
+    }
+    #flex2 > div > #B1 {
+      order: 1;
+    }
+    #flex2 > div > #B2 {
+      order: 5;
+      padding-top: 7px;
+    }
+    #flex2 > div > #B3 {
+      order: 2;
+    }
+    #flex2 > div > #B4 {
+      order: 6;
+      padding-top: 7px;
+    }
+    #flex2 > div > #B5 {
+      order: 3;
+      padding-top: 7px;
+    }
+    #flex2 > div > #B6 {
+      order: 4;
+      padding-top: 7px;
+    }
+  
+    .divco {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .divco > div > div {
+      flex: 25%;
+    }
+    .box {
+      height: 180px;
+      width: 170px;
+    }
+    .boxtxt {
+      font-size: 0.7rem;
+      padding-top: 0.5rem !important;
+    }
+    .kisp {
+      width: 147px;
+      padding-left: 20px !important;
+    }
+    .img576 {
+      width: 132px;
+      height: 85px;
+    }
+    .group1 {
+      float: none;
+    }
+    .title1 {
+      padding-left: 0px;
+    }
+  
+    .btnm {
+      margin-bottom: 24px;
+    }
+    #flex3 > #A {
+      order: 2;
+    }
+    #flex3 > #A {
+      width: 340px;
+    }
+    #flex3 > #B {
+      order: 1;
+    }
+    #flex4 > #megtud {
+      order: 1;
+      float: none;
+      /*width:unset*/
+    }
+    #flex4 > #megtud2 {
+      order: 2;
+      float: none;
+      /*width:unset*/
+    }
+    #flex4 > #megtud3 {
+      order: 3;
+      float: none;
+      /*width:unset*/
+    }
+    #B3 {
+      flex: 33.33% !important;
+    }
+    #B6 {
+      flex: 33.33% !important;
+    }
+    .tablet1 {
+      flex: 25%;
+      padding-left: 10px;
+      width: 160px;
+    }
+    .box3 {
+      width: 160px;
+    }
+    .img3 {
+      width: 160px;
+    }
+  }

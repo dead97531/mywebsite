@@ -2,9 +2,6 @@ html {
   font-style: normal;
   font-size: 20px;
 }
-html {
-  overflow-y: scroll;
-}
 ul {
   list-style-type: none;
   padding-left: 0px;

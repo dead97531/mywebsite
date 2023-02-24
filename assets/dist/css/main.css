@@ -491,9 +491,7 @@ ul {
 .pt6 {
   padding-top: 5.5rem;
 }
-.row2 {
-  flex-wrap: unset;
-}
+
 .img5 {
   padding-top: 54px;
 }
@@ -553,6 +551,9 @@ ul {
   .navbar-toggler {
     border: none;
   }
+  .img4 {
+    max-width: 100%;
+  }
 }
 @media (min-width: 1600px) {
   .container {
@@ -562,6 +563,9 @@ ul {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+  .row2 {
+    flex-wrap: unset;
   }
 }
 @media (min-width: 1200px) {

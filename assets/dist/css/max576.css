@@ -82,8 +82,11 @@
     .img4 {
       max-width: 100%;
     }
-    #D ul {
+    #D1 ul {
       padding-left: 20px;
+    }
+    #D ul {
+      padding-left: 0.6rem !important;
     }
     .font4 {
       font-size: 1.5rem;
@@ -96,6 +99,7 @@
     }
     .box {
       height: 190px !important;
+      width: 160px !important;
     }
     .row2 {
       flex-wrap: wrap;

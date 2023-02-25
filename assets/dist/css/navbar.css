@@ -57,10 +57,11 @@
     padding: 12px 14px;
     margin-bottom: 24px;
   }
+
+
+}
+@media (max-width: 1200px) {
   .vector {
-    display: none;
-  }
-  .rect {
     display: none;
   }
   #AC {
@@ -74,6 +75,15 @@
     padding-top: 0rem;
     column-count: 1;
     display: contents;
-
+    text-align: center;
+  }
+  .menu2 {
+    padding-right: 0px;
+  }
+  .rect {
+    display: none;
+  }
+  .navbar-toggler {
+    border: none;
   }
 }

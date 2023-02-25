@@ -511,12 +511,14 @@ ul {
 .fhir {
   font-size: 0.9rem;
   line-height: 22px;
+  text-align: center;
 }
 .fir {
   font-weight: 400;
   font-size: 0.7rem;
   line-height: 140%;
   width: 241px;
+  text-align: center;
 }
 #flex > #B {
   margin: auto;
@@ -571,11 +573,67 @@ ul {
   .container {
     width: 970px;
   }
+  .fhir {
+    text-align: unset;
+  }
+  .fir {
+    text-align: unset;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .fir {
+    margin-left: 77px;
+  }
+  .femail {
+    margin-left: 65px;
+  }
+}
+@media (min-width: 576px) and (max-width: 1200px) {
+  .gap1 {
+    gap: 15px;
+  }
+  .col-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .hass {
+    margin-left: 0px;
+  }
+  .tablet {
+    padding-top: 5px;
+    max-width: 50% !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .gap1 {
+    gap: 15px;
+  }
+  .col-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .hass {
+    margin-left: 0px;
+  }
+  .tablet {
+    padding-top: 5px;
+    max-width: 50% !important;
+  }
+  .mtitletxt2 {
+    padding-bottom: 50px;
+  }
+  .femail{
+    margin-left: 72px;
+  }
+  .femail1 {
+    position: relative;
+  }
+  .fir {
+    margin-left: 80px;
+  }
 }
 @media (max-width: 992px) {
-  .navbar-toggler {
-    border: none;
-  }
+
   .img4 {
     max-width: 100%;
   }
@@ -585,9 +643,6 @@ ul {
   #flex4 > #megtud3 {
     margin-left: unset;
   }
-  .txt {
-    margin-bottom: unset;
-  }
   .group1155-1text {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -596,7 +651,23 @@ ul {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  
+  .fhir {
+    font-size: 1.2rem;
+    line-height: 29px;
+
+  }
+
+}
+@media (max-width: 992px) and (min-width: 576px) {
+  #flex2 > div > #B5 {
+    padding-top: 35px; 
+  }
+
+}
+@media (max-width: 768) and (min-width: 576px) {
+  #flex2 > div > #B3 {
+    padding-top: 35px; 
+  }
 }
 @media (min-width: 1600px) {
   .container {
@@ -611,13 +682,21 @@ ul {
   .row2 {
     flex-wrap: unset;
   }
-}
-@media (min-width: 1200px) {
   #B3 {
     flex: 33.33% !important;
   }
 }
+@media (max-width: 1200px) and (min-width: 576px) {
 
+}
+@media (max-width: 1200px) {
+  .txt {
+    margin-bottom: unset;
+  } 
+  #flex4 > #megtud {
+    float: none;
+  }
+}
 @media (min-width: 1300px) {
   .container {
     max-width: 1280px;
@@ -632,5 +711,6 @@ ul {
   #flex3 > #B {
     order: 1;
   }
+
   
 }

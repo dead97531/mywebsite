@@ -587,6 +587,14 @@ ul {
   .femail {
     margin-left: 65px;
   }
+ .rect3{
+  margin-top: 60px;
+ }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .rect3{
+    padding-top: 60px;
+   }
 }
 @media (min-width: 576px) and (max-width: 1200px) {
   .gap1 {

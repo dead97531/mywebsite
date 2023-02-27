@@ -1,11 +1,11 @@
 html {
-
   font-style: normal;
   font-size: 20px;
 }
 html {
   overflow-y: scroll;
 }
+
 ul {
   list-style-type: none;
   padding-left: 0px;
@@ -418,13 +418,6 @@ ul {
 .flex-container div {
   padding-left: 50px;
 }
-.relative {
-  position: relative;
-}
-.abs {
-  position: absolute;
-  top: 50%;
-}
 .footerh2 {
   text-align: center;
 }
@@ -462,31 +455,31 @@ ul {
 #B6 {
   flex: none;
 }
-#flex2 {
+#flex3 {
   padding-top: 42px;
 }
-#flex2 > div > #B1 {
+#flex3 > div > #B1 {
   order: 1;
 }
-#flex2 > div > #B2 {
+#flex3 > div > #B2 {
   order: 4;
   padding-top: 35px;
 }
-#flex2 > div > #B3 {
+#flex3 > div > #B3 {
   order: 2;
 }
-#flex2 > div > #B4 {
+#flex3 > div > #B4 {
   order: 5;
   padding-top: 35px;
 }
-#flex2 > div > #B5 {
+#flex3 > div > #B5 {
   order: 3;
 }
-#flex2 > div > #B6 {
+#flex3 > div > #B6 {
   order: 6;
   padding-top: 35px;
 }
-.hass {
+.marginleft {
   margin-left: -60px;
 }
 .pt6 {
@@ -520,7 +513,7 @@ ul {
   width: 241px;
   text-align: center;
 }
-#flex > #B {
+#flex4 > #B {
   margin: auto;
 }
 .copy {
@@ -539,35 +532,34 @@ ul {
   padding-right: 2.2rem !important;
 }
 
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
 @media (max-width: 768px) {
-#flex4 > #megtud {
-  order: 1;
-  float: none;
-}
-#flex4 > #megtud2 {
-  order: 2;
-}
-#flex4 > #megtud3 {
-  order: 3;
-  margin-left: 70px;
-}
-.group1155-1text {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.group1155text {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.group1155-1 {
-  width: 200px;
-}
+  #flex2 > #megtud {
+    order: 1;
+    float: none;
+  }
+  #flex2 > #megtud2 {
+    order: 2;
+  }
+  #flex2 > #megtud3 {
+    order: 3;
+    margin-left: 70px;
+  }
+  .group1155-1text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .group1155text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .group1155-1 {
+    width: 200px;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -587,14 +579,14 @@ ul {
   .femail {
     margin-left: 65px;
   }
- .rect3{
-  margin-top: 60px;
- }
+  .rect3 {
+    margin-top: 60px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
-  .rect3{
+  .rect3 {
     padding-top: 60px;
-   }
+  }
 }
 @media (min-width: 576px) and (max-width: 1200px) {
   .gap1 {
@@ -604,7 +596,7 @@ ul {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .hass {
+  .marginleft {
     margin-left: 0px;
   }
   .tablet {
@@ -620,7 +612,7 @@ ul {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .hass {
+  .marginleft {
     margin-left: 0px;
   }
   .tablet {
@@ -630,7 +622,7 @@ ul {
   .mtitletxt2 {
     padding-bottom: 50px;
   }
-  .femail{
+  .femail {
     margin-left: 72px;
   }
   .femail1 {
@@ -641,14 +633,13 @@ ul {
   }
 }
 @media (max-width: 992px) {
-
   .img4 {
     max-width: 100%;
   }
-  #flex4 > #megtud {
+  #flex2 > #megtud {
     float: none;
   }
-  #flex4 > #megtud3 {
+  #flex2 > #megtud3 {
     margin-left: unset;
   }
   .group1155-1text {
@@ -662,26 +653,22 @@ ul {
   .fhir {
     font-size: 1.2rem;
     line-height: 29px;
-
   }
-
 }
 @media (max-width: 992px) and (min-width: 576px) {
-  #flex2 > div > #B5 {
-    padding-top: 35px; 
+  #flex3 > div > #B5 {
+    padding-top: 35px;
   }
-
 }
 @media (max-width: 768) and (min-width: 576px) {
-  #flex2 > div > #B3 {
-    padding-top: 35px; 
+  #flex3 > div > #B3 {
+    padding-top: 35px;
   }
 }
 @media (min-width: 1600px) {
   .container {
     width: 1560px !important;
   }
-
 }
 @media (min-width: 1200px) {
   .container {
@@ -695,30 +682,26 @@ ul {
   }
 }
 @media (max-width: 1200px) and (min-width: 576px) {
-
 }
 @media (max-width: 1200px) {
   .txt {
     margin-bottom: unset;
-  } 
-  #flex4 > #megtud {
+  }
+  #flex2 > #megtud {
     float: none;
   }
+
 }
 @media (min-width: 1300px) {
   .container {
     max-width: 1280px;
   }
- 
 }
 @media (max-width: 1300px) {
-
-  #flex3 > #A {
+  #flex1 > #A {
     order: 2;
   }
-  #flex3 > #B {
+  #flex1 > #B {
     order: 1;
   }
-
-  
 }

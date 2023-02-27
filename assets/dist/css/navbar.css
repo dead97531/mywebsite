@@ -79,11 +79,14 @@
   }
   .menu2 {
     padding-right: 0px;
+    text-align: center;
   }
   .rect {
     display: none;
+    
   }
   .navbar-toggler {
     border: none;
   }
 }
+

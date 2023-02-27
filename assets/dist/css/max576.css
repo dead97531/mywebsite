@@ -31,15 +31,12 @@
     .fir {
       width: unset;
     }
-    #flex > #B {
+    #flex4> #B {
       margin-top: 1.5rem;
     }
-    #flex > #D {
+    #flex4> #D {
       margin: auto;
       text-align: center;
-    }
-    #id {
-      margin-top: 1rem;
     }
     .btn2 {
       width: 273px;
@@ -78,7 +75,7 @@
     .gap1 {
       gap: 0px;
     }
-    .hass {
+    .marginleft {
       margin-left: 0px;
     }
     .img4 {
@@ -195,20 +192,20 @@
       line-height: 31px;
       /*width: 340px;*/
     }
-    #flex {
+    #flex4{
       display: flex;
       flex-direction: column;
     }
-    #flex > #A {
+    #flex4> #A {
       order: 1;
     }
-    #flex > #B {
+    #flex4> #B {
       order: 2;
     }
-    #flex > #C {
+    #flex4> #C {
       order: 4;
     }
-    #flex > #D1 {
+    #flex4> #D1 {
       order: 3;
     }
   
@@ -273,10 +270,10 @@
     .btnm {
       margin-bottom: 24px;
     }
-    #flex3 > #A {
+    #flex1 > #A {
       width: 340px;
     }
-    #flex4 > #megtud3 {
+    #flex2 > #megtud3 {
       margin-left: unset;
     }
     .group1155-1text2
@@ -324,5 +321,16 @@
       font-size: 1.5rem;
       line-height: 36px;
     }
-
+    #flex3 > div > #B5 {
+      padding-top: 15px;
+    }
+    #flex3 > div > #B2 {
+      padding-top: 15px;
+    }
+    #flex3 > div > #B4 {
+      padding-top: 15px;
+    }
+    #flex3 > div > #B6 {
+      padding-top: 15px;
+    }
   }

@@ -1,4 +1,7 @@
 @media (max-width: 575.98px) {
+  body {
+    background-color: #FFFFFF;
+  }
     .copy {
       display: flex;
       font-family: "Open Sans";
@@ -71,6 +74,8 @@
     .tablet {
       padding-top: 5px;
       max-width: 50% !important;
+      flex: 25%;
+      width: 160px;
     }
     .gap1 {
       gap: 0px;
@@ -292,15 +297,15 @@
     #B6 {
       flex: 33.33% !important;
     }
-    .tablet1 {
-      flex: 25%;
-      width: 160px;
-    }
+
     .box3 {
       width: 160px;
+      height: 200px;
+      margin-right: 0px;
     }
     .img3 {
-      width: 158px;
+      width: 150px;
+      height: 121px;
     }
     .footerh {
       height: auto;

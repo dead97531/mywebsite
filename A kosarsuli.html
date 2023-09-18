@@ -14,6 +14,7 @@
   </style>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@8.3.0/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -26,7 +27,6 @@
   <header
     class="header-container m-auto d-flex flex-nowrap w-100 justify-content-md-center justify-content-around align-items-center">
     <a class="m-auto" href="index.html"><img src="images/Nyiregyhazi_Kosarsuli_logo.png" alt="Logó" /></a>
-
     <ul class="nav m-auto d-none d-md-flex">
       <li><a href="Hirlista.html">Hírek</a></li>
       <li><a href="A kosarsuli.html">A kosársuli</a></li>
@@ -50,7 +50,7 @@
           <a class="dropdown-item d-flex align-items-center" href="#">U13</a>
         </div>
       </li>
-      <li><a href="#">Galléria</a></li>
+      <li><a href="#">Galéria</a></li>
       <li><a href="#">Közérdekű</a></li>
       <li><a href="#">Kapcsolat</a></li>
     </ul>
@@ -68,7 +68,7 @@
         <a href="#">Edzők</a>
         <a href="#">Létesítmények</a>
         <a href="#">Mérkőzéseink</a>
-        <a href="#">Galléria</a>
+        <a href="#">Galéria</a>
         <a href="#">Közérdekű</a>
         <a href="#">Kapcsolat</a>
       </div>
@@ -201,23 +201,24 @@
           </div>
           <ol class="row achievements">
             <ul>
-              <li>7</li>
+              <li data-num="7"></li>
               <li>különböző korosztály</li>
             </ul>
             <ul>
-              <li>11</li>
+              <li data-num="11"></li>
               <li>szakképzett edző</li>
             </ul>
-            <ul>
-              <li>100+</li>
+            <ul class="players">
+              <li data-num="100"></li>
+              <span>+</span>
               <li>leány játékos</li>
             </ul>
             <ul>
-              <li>9</li>
+              <li data-num="9"></li>
               <li>bajnoki cím</li>
             </ul>
             <ul>
-              <li>1</li>
+              <li data-num="1"></li>
               <li>válogatott játékos</li>
             </ul>
           </ol>
@@ -301,6 +302,7 @@
       },
     });
   </script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

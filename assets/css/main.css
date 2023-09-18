@@ -1,8 +1,14 @@
 html {
   height: 100%;
   overflow-x: hidden;
+  font-size: 16px;
 }
-
+html, body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #2c252a;
@@ -135,7 +141,9 @@ z-index: 10;
   line-height: 24px;
   color: #ffffff;
 }
-
+.carousel1 .carousel-caption > button:hover {
+  background-color: #e95a30;
+}
 .next-match {
   height: 103px;
   min-height: 103px;
@@ -182,6 +190,7 @@ z-index: 10;
 .dynamic li:nth-of-type(4) > .btn {
   width: 150px;
   height: 41px;
+  border: 2px solid #ffffff;
   background: #ffffff;
   border-radius: 30px;
   font-weight: 600;
@@ -190,7 +199,10 @@ z-index: 10;
   text-align: center;
   color: #e95a30;
 }
-
+.dynamic li:nth-of-type(4) > .btn:hover {
+  background: #e95a30;
+  color: #ffffff;
+}
 .dynamic .carousel-item > p:nth-of-type(1) {
   width: 212px;
   font-weight: 800;
@@ -360,7 +372,10 @@ z-index: 10;
   background: #2c252a;
   color: #ffffff;
 }
-
+.search-items .btn:hover {
+  color: #ffffff;
+  background: #e95a30;
+}
 .search-items .btn:nth-of-type(1) {
   margin-left: 100px;
   width: 73px;
@@ -518,7 +533,10 @@ z-index: 10;
   margin-top: 52px;
   margin-bottom: 52px;
 }
-
+.previous-news:hover {
+  background: #e95a30;
+  color: #ffffff;
+}
 .previous-news2 {
   width: 168px;
   height: 41px;
@@ -532,7 +550,10 @@ z-index: 10;
   margin-top: 52px;
   margin-bottom: 35px;
 }
-
+.previous-news2:hover {
+  background: #e95a30;
+  color: #ffffff;
+}
 .support-us {
   background: url(../../images/team3.jpg);
   height: 630px;
@@ -624,14 +645,20 @@ z-index: 10;
   margin-right: 0;
 }
 
-.achievements ul li:nth-of-type(1) {
+.achievements ul li:nth-of-type(1),
+.achievements ul span {
   font-weight: 800;
   font-size: 45px;
   line-height: 50px;
   text-align: center;
   color: #ffffff;
 }
-
+.achievements ul:nth-of-type(3) li:nth-of-type(1) {
+  display: inline;
+}
+.achievements .players {
+  min-width: 106px;
+}
 .achievements ul li:nth-of-type(2) {
   font-size: 16px;
   line-height: 18px;
@@ -652,7 +679,10 @@ z-index: 10;
   text-align: center;
   color: #ffffff;
 }
-
+.our-teams button:hover {
+  background: #e95a30;
+  color: #ffffff;
+}
 .wall-of-glory {
   height: 155px;
   background: #e95a30;
@@ -710,14 +740,19 @@ z-index: 10;
   font-size: 14px;
   color: #352c34;
 }
-
+.pic {
+  overflow: hidden;
+}
 .galleries img {
   height: 193px;
   width: 100%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 2px;
+  transition: 0.3s;
 }
-
+.galleries img:hover {
+  transform: scale(1.05);
+}
 .previous-btn {
   width: 168px;
   height: 41px;
@@ -728,7 +763,10 @@ z-index: 10;
   line-height: 18px;
   color: #2c252a;
 }
-
+.previous-btn:hover {
+  background: #e95a30;
+  color: #ffffff;
+}
 .swiper {
   width: 73%;
   height: 100%;
@@ -986,6 +1024,9 @@ z-index: 10;
   .dynamic .carousel-control-next {
     right: 0;
   }
+  .dynamic .carousel-item > p:nth-of-type(2) {
+    text-align: center;
+  }
 
   .swiper {
     width: 100%;
@@ -1047,7 +1088,8 @@ z-index: 10;
   }
 
   .trophies {
-    row-gap: 15px;
+    row-gap: 52px;
+    margin-left: 0;
   }
 
   .galleries img {
@@ -1314,10 +1356,6 @@ z-index: 10;
     margin-inline: auto;
   }
 
-  .dynamic .carousel-item > p:nth-of-type(2) {
-    text-align: center;
-  }
-
   .row {
     margin-left: 0;
     margin-right: 0;
@@ -1330,6 +1368,7 @@ z-index: 10;
 
   .search-items {
     row-gap: 10px;
+    column-gap: 10px;
   }
 
   .top-news-title {

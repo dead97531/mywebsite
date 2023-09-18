@@ -18,16 +18,25 @@ header ul li {
   height: 53px;
   background: #e95a30;
   border-radius: 30px;
+  border: 2px solid #e95a30;
   font-weight: 600;
   font-size: 13px;
   line-height: 20px;
   color: #ffffff;
+}
+.calendar:hover {
+  background: #ffffff;
+  color: #e95a30;
 }
 .calendar > img {
   margin-right: 10px;
   margin-bottom: 3px;
   width: 21.5px;
   height: 21px;
+}
+.calendar:hover > img {
+  filter: invert(43%) sepia(55%) saturate(2425%) hue-rotate(343deg)
+    brightness(95%) contrast(91%);
 }
 .teams {
   width: 113px;
@@ -38,16 +47,9 @@ header ul li {
   font-weight: 600;
 }
 .teams .dropdown-toggle {
-  text-align: center;
-  background: #2c252a;
-  color: #ffffff;
-  font-weight: 600;
-}
-.teams .dropdown-toggle:hover {
-  background: #2c252a;
   color: #ffffff;
 }
-.dropdown-menu {
+.teams .dropdown-menu {
   width: 113px !important;
   transform: translate3d(0px, 89px, 0px) !important;
   min-width: unset;

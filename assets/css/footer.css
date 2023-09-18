@@ -1,0 +1,106 @@
+.supporters {
+  height: 91px;
+  background: #f9f9f9;
+}
+.supporters img {
+  width: 33px;
+  height: 33px;
+}
+.supporters div {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 28px;
+  color: #352c34;
+}
+.every-supporter {
+  height: 162px;
+}
+.every-supporter2 {
+  width: inherit;
+  margin-left: 40px;
+  flex-wrap: wrap;
+}
+.follow-us {
+  height: 103px;
+  background: #2c252a;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+.follow-us > div:nth-of-type(1),
+.follow-us > div:nth-of-type(2) {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.facebook {
+  width: 145px;
+  height: 43px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.facebook-icon {
+  width: 45px;
+  height: 43px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+.facebook > div:last-of-type {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.instagram {
+  width: 145px;
+  height: 43px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.instagram-icon {
+  width: 45px;
+  height: 43px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+}
+.instagram > div:last-of-type {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer-bar {
+  height: 35px;
+  background: #e95a30;
+  font-size: 12px;
+  color: #ffffff;
+}
+.footer-bar * {
+  color: #ffffff;
+}
+.footer-bar > p {
+  margin-bottom: 0;
+}
+@media (max-width: 1199.98px) {
+  .every-supporter2 {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 991.98px) {
+  .follow-us {
+    height: unset;
+  }
+  .every-supporter {
+    height: unset;
+  }
+}
+@media (max-width: 767.98px) {
+  .every-supporter2 {
+    margin-bottom: 52px;
+  }
+}
+@media (max-width: 575.98px) {
+  .footer-bar {
+    height: unset;
+  }
+}

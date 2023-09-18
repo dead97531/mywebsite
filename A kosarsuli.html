@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>A kosársuli</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8.3.0/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+</head>
+
+<body>
+  <header
+    class="header-container m-auto d-flex flex-nowrap w-100 justify-content-md-center justify-content-around align-items-center">
+    <a class="m-auto" href="Fooldal.html"><img src="images/Nyiregyhazi_Kosarsuli_logo.png" alt="Logó" /></a>
+
+    <ul class="nav m-auto d-none d-md-flex">
+      <li><a href="Hirlista.html">Hírek</a></li>
+      <li><a href="A kosarsuli.html">A kosársuli</a></li>
+      <li class="dropdown teams d-flex justify-content-center align-items-center">
+        <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">Csapatok</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item d-flex align-items-center mb-2 mt-2" href="#">Amatőr NB I.</a>
+          <a class="dropdown-item d-flex align-items-center mb-2 active" href="#">U17</a>
+          <a class="dropdown-item d-flex align-items-center mb-2" href="#">U15</a>
+          <a class="dropdown-item d-flex align-items-center" href="#">U13</a>
+        </div>
+      </li>
+      <li><a href="#">Edzők</a></li>
+      <li><a href="#">Létesítmények</a></li>
+      <li class="dropdown matches d-flex justify-content-center align-items-center">
+        <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">Mérkőzéseink</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item d-flex align-items-center mb-2 mt-2" href="#">Amatőr NB I.</a>
+          <a class="dropdown-item d-flex align-items-center mb-2 active" href="#">U17</a>
+          <a class="dropdown-item d-flex align-items-center mb-2" href="#">U15</a>
+          <a class="dropdown-item d-flex align-items-center" href="#">U13</a>
+        </div>
+      </li>
+      <li><a href="#">Galléria</a></li>
+      <li><a href="#">Közérdekű</a></li>
+      <li><a href="#">Kapcsolat</a></li>
+    </ul>
+    <button type="button" class="btn m-auto m-md-0 calendar">
+      <img src="images/Calendar.svg" alt="" />
+      Versenynaptárak
+    </button>
+    <div id="myNav" class="overlay d-md-none">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <img src="images/Nyiregyhazi_Kosarsuli_logo.png" alt="" />
+      <div class="overlay-content d-flex flex-column align-items-center">
+        <a href="Hirlista.html">Hírek</a>
+        <a href="A kosarsuli.html">A kosársuli</a>
+        <a href="#">Csapatok</a>
+        <a href="#">Edzők</a>
+        <a href="#">Létesítmények</a>
+        <a href="#">Mérkőzéseink</a>
+        <a href="#">Galléria</a>
+        <a href="#">Közérdekű</a>
+        <a href="#">Kapcsolat</a>
+      </div>
+    </div>
+    <button class="navbar-toggler m-auto d-md-none" type="button" onclick="openNav()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </header>
+  <main>
+    <div class="d-flex flex-nowrap next-match">
+      <ul class="container d-flex dynamic flex-column flex-lg-row position-relative">
+        <li class="d-flex justify-content-center align-items-center my-2 ml-4 ml-sm-0">
+          Következő mérkőzésünk
+          <a class="carousel-control-prev d-sm-none" href="#dynamic-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Előző</span>
+          </a>
+          <a class="carousel-control-next d-sm-none" href="#dynamic-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Következő</span>
+          </a>
+        </li>
+        <li class="d-flex justify-content-center align-items-center">
+          <p class="m-auto py-2">Női amatőr NB I., Zöld-csoport</p>
+        </li>
+        <li id="dynamic-carousel" class="carousel slide mt-3 mt-lg-0" data-ride="carousel">
+          <div class="carousel-inner mb-3 mb-lg-0">
+            <div class="carousel-item flex-column flex-xl-row active">
+              <p class="mb-3 mb-lg-0 mr-0">2023.03.25.</p>
+              <p>
+                Zsíros Akadémia-Nyíregyházi Kosársuli
+                <span class="font-weight-normal" style="font-size: 14px">17:00, Budapest, Zsíros Tibor Kosárlabda
+                  Csarnok</span>
+              </p>
+            </div>
+            <div class="carousel-item flex-column flex-xl-row">
+              <p class="mb-3 mb-lg-0 mr-0">2023.03.25.</p>
+              <p>
+                Zsíros Akadémia-Nyíregyházi Kosársuli
+                <span class="font-weight-normal" style="font-size: 14px">17:00, Budapest, Zsíros Tibor Kosárlabda
+                  Csarnok</span>
+              </p>
+            </div>
+            <div class="carousel-item flex-column flex-xl-row">
+              <p class="mb-3 mb-lg-0 mr-0">2023.03.25.</p>
+              <p>
+                Zsíros Akadémia-Nyíregyházi Kosársuli
+                <span class="font-weight-normal" style="font-size: 14px">17:00, Budapest, Zsíros Tibor Kosárlabda
+                  Csarnok</span>
+              </p>
+            </div>
+            <div class="carousel-item flex-column flex-xl-row">
+              <p class="mb-3 mb-lg-0 mr-0">2023.03.25.</p>
+              <p>
+                Zsíros Akadémia-Nyíregyházi Kosársuli
+                <span class="font-weight-normal" style="font-size: 14px">17:00, Budapest, Zsíros Tibor Kosárlabda
+                  Csarnok</span>
+              </p>
+            </div>
+          </div>
+          <a class="carousel-control-prev d-none d-sm-flex" href="#dynamic-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Előző</span>
+          </a>
+          <a class="carousel-control-next d-none d-sm-flex" href="#dynamic-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Következő</span>
+          </a>
+        </li>
+        <li class="d-flex justify-content-center align-items-center mb-2 mb-lg-0">
+          <button class="btn">Teljes menetrend</button>
+        </li>
+      </ul>
+    </div>
+    <div class="past-match">
+      <div class="container d-flex flex-nowrap flex-column flex-xl-row align-items-md-center position-relative">
+        <h4 class="flex-shrink-0 mb-xl-0 ml-4 ml-sm-0 mt-2 mt-xl-0">Legutóbbi mérkőzéseink</h4>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">U 14&nbsp;<span class="font-weight-bold">DEAC-Nyíregyházi
+                Kosársuli</span>&nbsp;56-86
+              <img src="images/basketball.svg" alt="">
+            </div>
+            <div class="swiper-slide">U 17&nbsp;<span class="font-weight-bold">Nyíregyházi
+                Kosársuli-Zalaegerszeg</span>&nbsp;104-65
+              <img src="images/basketball.svg" alt="">
+            </div>
+            <div class="swiper-slide">U 13&nbsp;<span class="font-weight-bold">Nyíregyházi
+                Kosársuli-KTE</span>&nbsp;104-65
+              <img src="images/basketball.svg" alt="">
+            </div>
+            <div class="swiper-slide">U 14&nbsp;<span class="font-weight-bold">DEAC-Nyíregyházi
+                Kosársuli</span>&nbsp;56-86
+              <img src="images/basketball.svg" alt="">
+            </div>
+            <div class="swiper-slide">U 17&nbsp;<span class="font-weight-bold">Nyíregyházi
+                Kosársuli-Zalaegerszeg</span>&nbsp;104-65
+              <img src="images/basketball.svg" alt="">
+            </div>
+            <div class="swiper-slide">U 13&nbsp;<span class="font-weight-bold">Nyíregyházi
+                Kosársuli-KTE</span>&nbsp;104-65
+              <img src="images/basketball.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next d-none d-xl-flex"></div>
+        <div class="swiper-button-prev d-none d-xl-flex"></div>
+      </div>
+    </div>
+    <div class="support-us">
+      <div class="d-flex container position-relative align-items-center h-100 flex-column flex-lg-row">
+        <div class="tax">
+          <img src="images/logo2.png" alt="" />
+          <div class="text-center mb-4 d-none d-lg-block">
+            Támogassa adója 1%-ával egyesületünket!
+          </div>
+          <div class="text-center d-none d-lg-block">
+            <span class="font-weight-normal">Adószámunk:</span> 18806502-1-15
+          </div>
+        </div>
+        <div class="our-teams position-relative">
+          <div class="club mb-3">
+            Nyíregyházi Kosársuli <br class="d-block d-sm-none" />
+            <span>leány kosárlabda utánpótlás klub</span>
+          </div>
+          <div class="club2 mb-4">
+            A fiatal sportolók folyamatos edzési és versenyezetési
+            lehetőségeinek biztosítása kulturált körülmények között, hozzáértő
+            szakemberek segítségével.
+          </div>
+          <ol class="row achievements">
+            <ul>
+              <li>7</li>
+              <li>különböző korosztály</li>
+            </ul>
+            <ul>
+              <li>11</li>
+              <li>szakképzett edző</li>
+            </ul>
+            <ul>
+              <li>100+</li>
+              <li>leány játékos</li>
+            </ul>
+            <ul>
+              <li>9</li>
+              <li>bajnoki cím</li>
+            </ul>
+            <ul>
+              <li>1</li>
+              <li>válogatott játékos</li>
+            </ul>
+          </ol>
+          <div class="d-flex justify-content-center">
+            <button class="btn mx-auto mb-3 mb-sm-0">Tartozz közénk!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="supporters d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <img class="mr-3 ml-4 ml-sm-0" src="images/basketball2.svg" alt="" />
+        <div>Támogatóink</div>
+      </div>
+    </div>
+    <div class="container d-flex align-items-center every-supporter">
+      <div class="d-flex justify-content-xl-between justify-content-center every-supporter2">
+        <img src="images/emberi_eroforras_logo.jpg" alt="" />
+        <img src="images/nea_logo.jpg" alt="" />
+        <img src="images/nyiregyhaza_tobbet_ad_logo.jpg" alt="" />
+        <img class="d-none d-md-block" src="images/emberi_eroforras_logo.jpg" alt="" />
+        <img class="d-none d-md-block" src="images/nea_logo.jpg" alt="" />
+      </div>
+    </div>
+    <div class="follow-us d-flex justify-content-center align-items-center flex-column flex-lg-row">
+      <div class="mr-lg-3 mt-4 mt-lg-0 mb-3 mb-lg-0">KÖVESS MINKET!</div>
+      <div class="mr-lg-5 mb-5 mb-lg-0">tarts velünk!</div>
+      <div class="d-flex mb-5 mb-lg-0">
+        <a href="#">
+          <div class="d-flex align-items-center mr-4 facebook">
+            <div class="facebook-icon d-flex justify-content-center align-items-center">
+              <img src="images/facebook.svg" alt="" />
+            </div>
+            <div class="m-auto">facebook</div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="d-flex align-items-center instagram">
+            <div class="instagram-icon d-flex justify-content-center align-items-center">
+              <img src="images/instagram.svg" alt="" />
+            </div>
+            <div class="m-auto">instagram</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center footer-bar">
+      <p class="mr-sm-3 mt-2 mt-sm-0">
+        Copyright © 2023 &nbsp; <a href="#">www.nyiregyhazikosarsuli.hu</a>
+      </p>
+      <div class="mb-2 mb-sm-0">
+        <a href="#">
+          Powered by
+          <img src="images/forweb_logo.svg" alt="ForWeb" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+      document.getElementById("myNav").style.transition = "0.3s ease-out";
+    }
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
